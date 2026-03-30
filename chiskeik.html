@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>Fotos</title>
+
+  <style>
+    body {
+      background-color: #f3e5d8;
+      font-family: Arial, sans-serif;
+      color: #5f574e;
+    }
+
+    .recipe-card {
+      max-width: 700px;
+      width: 100%;
+      border-radius: 20px;
+      border: none;
+    }
+
+    h1 {
+      color: #302d2c;
+      font-weight: bold;
+    }
+
+    h3 {
+      color: #854632;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    h4 {
+      color: #7b284f;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+
+    p {
+      line-height: 1.7;
+    }
+
+    li {
+      margin-bottom: 10px;
+      line-height: 1.7;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #ddd;
+      margin: 30px 0;
+    }
+
+    .prep-card {
+      background-color: #fff4fa;
+      border-radius: 16px;
+    }
+
+    .prep-card li::marker {
+      color: #7b284f;
+    }
+
+    .section-list li::marker,
+    .instructions-list li::marker {
+      color: #854632;
+      font-weight: bold;
+    }
+
+    .nutrition-value {
+      color: #854632;
+      font-weight: bold;
+    }
+
+    .nutrition-row {
+      border-bottom: 1px solid #ddd;
+      padding: 14px 0;
+    }
+
+    .nutrition-row:last-child {
+      border-bottom: none;
+    }
+
+    .attribution {
+      font-size: 0.8rem;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: #ffffff;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="d-flex justify-content-center align-items-start min-vh-100 pt-5 px-3">
+    <div class="card recipe-card p-4 bg-white">
+
+      <img
+        src="img/tarta de queso 2.png"
+        class="img-fluid rounded-4"
+        alt="omelette"
+      />
+
+      <div class="mt-4">
+        <h1>Tarta de queso del Tonas</h1>
+        <p>
+          Una rica y sencilla tarta de pocos ingredientes perfecta para introducirse en el mundo de la reposteria.
+        </p>
+
+
+        <div class="prep-card p-4 mt-4">
+          <h4>Preparation time</h4>
+          <ul class="mb-0">
+            <li><strong>Total:</strong> Aproximadamente 45 minutos</li>
+            <li><strong>Preparacion:</strong> 10 minutos</li>
+            <li><strong>Horneado:</strong> 30-35 minutos</li>
+          </ul>
+        </div>
+
+
+        <div class="mt-5">
+          <h3>Ingredientes</h3>
+          <ul class="section-list">
+            <li>2-3 large eggs</li>
+            <li>Salt, to taste</li>
+            <li>Pepper, to taste</li>
+            <li>1 tablespoon of butter or oil</li>
+            <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+          </ul>
+        </div>
+
+        <hr>
+
+
+        <div>
+          <h3>Instructions</h3>
+          <ol class="instructions-list">
+            <li>
+              <strong>Beat the eggs:</strong> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed.
+              You can add a tablespoon of water or milk for a fluffier texture.
+            </li>
+            <li>
+              <strong>Heat the pan:</strong> Place a non-stick frying pan over medium heat and add butter or oil.
+            </li>
+            <li>
+              <strong>Cook the omelette:</strong> Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure
+              the eggs evenly coat the surface.
+            </li>
+            <li>
+              <strong>Add fillings (optional):</strong> When the eggs begin to set at the edges but are still slightly runny in the
+              middle, sprinkle your chosen fillings over one half of the omelette.
+            </li>
+            <li>
+              <strong>Fold and serve:</strong> As the omelette continues to cook, carefully lift one edge and fold it over the
+              fillings. Let it cook for another minute, then slide it onto a plate.
+            </li>
+            <li>
+              <strong>Enjoy:</strong> Serve hot, with additional salt and pepper if needed.
+            </li>
+          </ol>
+        </div>
+
+        <hr>
+
+        <div>
+          <h3>Nutrition</h3>
+          <p>
+            The table below shows nutritional values per serving without the additional fillings.
+          </p>
+
+          <div class="mt-4">
+            <div class="row nutrition-row">
+              <div class="col-6 ps-4">Calories</div>
+              <div class="col-6 nutrition-value">277kcal</div>
+            </div>
+
+            <div class="row nutrition-row">
+              <div class="col-6 ps-4">Carbs</div>
+              <div class="col-6 nutrition-value">0g</div>
+            </div>
+
+            <div class="row nutrition-row">
+              <div class="col-6 ps-4">Protein</div>
+              <div class="col-6 nutrition-value">20g</div>
+            </div>
+
+            <div class="row nutrition-row">
+              <div class="col-6 ps-4">Fat</div>
+              <div class="col-6 nutrition-value">22g</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="attribution bg-dark p-4 text-white mt-5">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+    Coded by <a href="#">Tonas</a>.
+  </footer>
+
+</body>
+</html>
